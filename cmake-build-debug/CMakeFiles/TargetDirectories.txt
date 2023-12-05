@@ -1,0 +1,3 @@
+C:/Clion_GitHub/Physical-laboratory/cmake-build-debug/CMakeFiles/Physical_laboratory.dir
+C:/Clion_GitHub/Physical-laboratory/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Clion_GitHub/Physical-laboratory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
