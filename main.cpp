@@ -19,10 +19,6 @@
 
 using namespace std;
 
-<<<<<<< Updated upstream
-int main() {
-    return 0;
-=======
 string convert(long double myLongDouble) {
     stringstream blah;
     blah << myLongDouble;
@@ -48,6 +44,4 @@ int main() {
     fprintf(gpipe, "exit\n");
 
     pclose(gpipe); */
-
->>>>>>> Stashed changes
 }
