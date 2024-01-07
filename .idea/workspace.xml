@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fbbd227-c15b-4671-af1b-f531cd1f90fd" name="Changes" comment="Fix">
-      <change afterPath="$PROJECT_DIR$/constants_and_structures.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/three_loads_two_fixed_blocks.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ballistic_problem_obstacle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ballistic_problem_obstacle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classic_ballistic_problem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/classic_ballistic_problem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classic_fixed_block.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
     </list>
@@ -44,12 +42,13 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "ThreeBlocks",
     "last_opened_file_path": "C:/CodeForces/Обмен и удаление",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,7 +70,7 @@
       <updated>1704300875184</updated>
       <workItem from="1704300876559" duration="218000" />
       <workItem from="1704367501182" duration="699000" />
-      <workItem from="1704457270136" duration="16203000" />
+      <workItem from="1704457270136" duration="21478000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <option name="closed" value="true" />
