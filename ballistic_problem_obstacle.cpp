@@ -1,21 +1,3 @@
-#include <bits/stdc++.h>
-
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <unordered_set>
-#include <set>
-#include <string>
-#include <numeric>
-#include <algorithm>
-#include <cmath>
-
-#include <stdio.h>
-#include <stdlib.h>
-
-using namespace std;
-
 vector<Point> ballistic_problem_obstacle(double radian_angle, long double speed_module, long double delta_time,
                                          long double distance, long double height) {
     long double time_moment = 0;
