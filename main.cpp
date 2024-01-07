@@ -1,21 +1,7 @@
-#include <bits/stdc++.h>
-
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <unordered_set>
-#include <set>
-#include <string>
-#include <numeric>
-#include <algorithm>
-#include <cmath>
-
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "constants_and_structures.cpp"
 #include "classic_ballistic_problem.cpp"
 #include "ballistic_problem_obstacle.cpp"
+#include "three_loads_two_fixed_blocks.cpp"
 
 using namespace std;
 
@@ -34,7 +20,7 @@ int main() {
 
     fprintf(gpipe, "set terminal win\n");
 
-    for (const auto& row : ballistic_problem_obstacle(M_PI_4, 10, 0.001, 3.5, 600)) {
+    for (const auto& row : ballistic_problem_obstacle(M_PI_4, 10, 0.001, 7, 600)) {
         fprintf(gpipe, "plot '-'\n");
         string text = convert(row.x) + " " + convert(row.y) + "\n";
         fprintf(gpipe, "%s", text.c_str());
@@ -44,4 +30,13 @@ int main() {
     fprintf(gpipe, "exit\n");
 
     pclose(gpipe); */
+
+    /* Block block1 = {0, 0, 1, 1, 1};
+    Block block2 = {5, 10, 1, 1, 2};
+    Block block3 = {11, 0, 1, 1, 3};
+
+    for (const auto& row : three_loads_two_fixed_blocks(0.5,
+                                                        block1, block2, block3, 0.15)) {
+        cout << "{" << row[0].x << "; " << row[0].y << "}" << " " << "{" << row[1].x << "; " << row[1].y << "}" << " " << "{" << row[2].x << "; " << row[2].y << "}" << "\n";
+    } */
 }
