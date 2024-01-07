@@ -2,6 +2,7 @@
 #include "classic_ballistic_problem.cpp"
 #include "ballistic_problem_obstacle.cpp"
 #include "three_loads_two_fixed_blocks.cpp"
+#include "classic_fixed_block.cpp"
 
 using namespace std;
 
@@ -38,5 +39,13 @@ int main() {
     for (const auto& row : three_loads_two_fixed_blocks(0.5,
                                                         block1, block2, block3, 0.15)) {
         cout << "{" << row[0].x << "; " << row[0].y << "}" << " " << "{" << row[1].x << "; " << row[1].y << "}" << " " << "{" << row[2].x << "; " << row[2].y << "}" << "\n";
+    } */
+
+    /* Block block1 = {0, -12, 1, 1, 3};
+    Block block2 = {5, 3, 1, 1, 5};
+
+    for (const auto& row : classic_fixed_block(block1, block2, 10, 5, 0.015)) {
+        cout << "{" << row.first.x << "; " << row.first.y << "}" << " " << "{" << row.second.x << "; " << row.second.y
+             << "}" << "\n";
     } */
 }
